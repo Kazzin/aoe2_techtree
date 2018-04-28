@@ -1,0 +1,22 @@
+$info-box: (
+  "left": 6px,
+  "top": 16px,
+  "right": 365px,
+  "bottom": 999px
+);
+
+$info-box-sz: (
+  "x": map-get($info-box, "right") - map-get()
+);
+
+$info-box-left: 6;
+$info-box-top: 16;
+$info-box-right: 365;
+$info-box-bottom: 999;
+$info-box-width: $info-box-right - $info-box-left;
+$info-box-height: $info-box-bottom - $info-box-top;
+
+html {
+  background-image: url('/bg.png');
+  background-size: auto 100vh;
+}
